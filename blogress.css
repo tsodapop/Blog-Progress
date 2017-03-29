@@ -1,0 +1,33 @@
+body {
+	margin: 0px;
+}
+
+#Introduction {
+	color: #00FA9A;
+	background-color: #000080;
+	height: 300px;	
+}
+
+#wrapBox {
+	background-color: #00FFFF;
+}
+.introPara {
+	color: #00FF00;
+	background-color: #2F4F4F;
+	height: 50px;
+	width: 700px;
+	margin: 1px 0px 0px 0px;
+	/*display: block;*/
+}
+.sideImage {
+	background-color: red;
+	width: 400px;
+	height: 100px;	
+	/*display: inline-block;*/
+	/*float: right;*/
+}
+
+#helpSources {
+	color: #FF8C00;
+	background-color: #000000;
+}
