@@ -8,29 +8,25 @@
 	</head>
 	<body>
 		<div id='Introduction'>
-			Today I'm going to begin the inclusion of a .css page. This div has an id while the rest have the same class. 
-			<p>I also want to begin partitioning the website using these id's and classes, so I'm using colors to differentiate and begin setting this up.</p>
-			<p>I learned a bit of the basics of website design in Indianapolis. One of the coolest things I learned so far was that if you use margin:0 in a body tag in css, it helps so that there's no extra space from the top of the page and the first div.</p>
+			I spent the majority of today's 30 minutes on figuring out how to move the position of the right div next to the "Potential Box" divs. I decided to use inline-block. Interesting to note that the second div will begin its appointed height to where the bottom of the first div is. I removed the other "Potential Box" divs as a result, as I really want to get formatting down before details.
+			<p> I have also found out how to put divs next to each other without having a space in between them - you have to comment out the space between the html in the divs. I will have to defer to this option until I can see if there's a better option at making divs sit next to each other. </p>
 		</div>
-		<div id = 'wrapBox'>
-			<div class='introPara'>
-				Potential box
-			</div>
-			<div class='introPara'>
-				Potential box
-			</div>
-			<div class='introPara'>
-				Potential box
-			</div>
-			<div class='introPara'>
-				Potential box
-			</div>
-			<div class = 'sideImage'>Goal is to move this to the right of "Potential box"
+		<div id='wrapBox'>
+			<div class='wrapBox2'>
+				<div class='introPara'>
+					Potential box
+				</div>
+			</div><!--
+			--><div class='wrapBox3'>
+				<div class='sideImage'>Successfully moved!
+				</div>
 			</div>
 		</div>
 		<div id='helpSources'>
 			I'm adding in a new div specifically for sources that I use to help understand/learn more. At the moment, these are being added in as paragraphs.
 			<p> https://www.w3schools.com/cssref/css_colors.asp</p>
+			<p>http://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other</p>
+			<p>https://nott-studios.co.uk/fitting-two-divs-next/</p>
 		</div>
 	</body>
 </html>
