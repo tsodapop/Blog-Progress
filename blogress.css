@@ -8,11 +8,13 @@ body {
 	height: 300px;	
 }
 #wrapBox {
+	background-color: red;
+	margin: -50px 0px 0px 0px;
 }
 .wrapBox2 {
 	background-color: #F0F000;
 	display: inline-block;
-	height: 150px;
+	height: 200px;
 	width: 800px;
 }
 .wrapBox3 {
@@ -20,13 +22,15 @@ body {
 	display: inline-block;
 	height: 150px;
 	width: 450px;
+	padding: 0px 0px 0px 0px;
+
 }
 .introPara {
 	color: #00FF00;
 	background-color: #2F4F4F;
-	height: 50px;
-	width: 400px;
-	margin: 0px 0px 0px 0px;
+	height: 100px;
+	width: 600px;
+	margin: 50px 0px 0px 90px;
 }
 #helpSources {
 	color: #FF8C00;
