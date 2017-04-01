@@ -1,36 +1,24 @@
 body {
 	margin: 0px;
 }
-
 #Introduction {
 	color: #00FA9A;
 	background-color: #000080;
 	height: 300px;	
 }
 #wrapBox {
-	background-color: red;
-	margin: -50px 0px 0px 0px;
 }
-.wrapBox2 {
+.smallerBox {
 	background-color: #F0F000;
 	display: inline-block;
 	height: 200px;
-	width: 800px;
+	width: 700px;
 }
-.wrapBox3 {
+.smallerBoxTwo {
 	background-color:#FF8C00;
 	display: inline-block;
-	height: 150px;
-	width: 450px;
-	padding: 0px 0px 0px 0px;
-
-}
-.introPara {
-	color: #00FF00;
-	background-color: #2F4F4F;
-	height: 100px;
-	width: 600px;
-	margin: 50px 0px 0px 90px;
+	height: 200px;
+	width: 565px;
 }
 #helpSources {
 	color: #FF8C00;
