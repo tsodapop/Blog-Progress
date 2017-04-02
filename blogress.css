@@ -7,18 +7,29 @@ body {
 	height: 300px;	
 }
 #wrapBox {
+	display: flex;
 }
 .smallerBox {
 	background-color: #F0F000;
 	display: inline-block;
 	height: 200px;
-	width: 700px;
+	width: 650px;
+	text-align: center;
+}
+.linkButton {
+	font-size: 50px;
 }
 .smallerBoxTwo {
 	background-color:#FF8C00;
-	display: inline-block;
+	float:right;
 	height: 200px;
-	width: 565px;
+	width: 650px;
+}
+.smallerBoxTwoImage {
+	height: 180px;
+	width: 300px;
+	margin: 10px 0px 0px 170px;
+
 }
 #helpSources {
 	color: #FF8C00;

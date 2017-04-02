@@ -8,14 +8,14 @@
 	</head>
 	<body>
 		<div id='Introduction'>
-		Something Interesting that I learned in this 30 minutes is that with divs, it looks like if you add put two empty divs next to each other (like TEXT ONE and TEXT TWO) but only have text in one of the divs, it will move one of the divs to the bottom of the first div. Example here: https://jsfiddle.net/p11uzk58/ <br>Because of this, I will be continuing to add on to the current board, BUT I have decided that I will be creating a section for questions that I want to continue to look answers up for. This will be one of them.<br> My next goal now that I have finally figured out how to set these up in tandem is to include a button on one side and an image on another. 
+		Today was working on including an image on the right as well as adding a link on the left side. Because the image is so much larger than the text on the left side, this caused some problems. I also saw there was a white space between the two divs. Found out that you can use display:flex to fix this problem. </br><br>Also, I need to work on choosing which class or id I am working on to make effects happen. An example is that I tried to make the link centered by using text-align:center, but I found out that i should have been using it on the div instead.</br><br>Afterwards, I pulled some margin spacing to align the image. So for today, here's a picture of a giraffe. and a link
 		</div>
 		<div id='wrapBox'>
 			<div class='smallerBox'>	
-			TEXT ONE	
+				<a class='linkButton' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Click Me</a>
 			</div><!--
 		 --><div class='smallerBoxTwo'>
-		 	TEXT TWO
+		 			<img class='smallerBoxTwoImage' src='http://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/g/giraffe_thumb.JPG'>
 			</div> 
 		</div>
 		<div id='helpSources'>
@@ -23,6 +23,7 @@
 			<p> https://www.w3schools.com/cssref/css_colors.asp</p>
 			<p>http://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other</p>
 			<p>https://nott-studios.co.uk/fitting-two-divs-next/</p>
+			<p>http://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements</p>
 		</div> 
 		<div id='Questions'>
 			<p> How do you allow two divs to stand next to each other even when only one has text inside it? https://jsfiddle.net/p11uzk58/</p>
