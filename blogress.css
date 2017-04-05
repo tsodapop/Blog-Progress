@@ -23,8 +23,20 @@ body {
 .linkButton:hover {
 	background-color: orange;
 	border-color: black;
-	border: 2px solid;
-	box-shadow: 10px;
+	border: 1px solid;
+	box-shadow: 5px;
+	transition: 1s;
+	padding-right: 100px;
+}
+.hidden {
+	display: none;
+}
+.linkButton:hover .hidden {
+	display: inline;
+	opacity: .8;
+	/*padding-right: 50px;*/
+	transition: 1s;
+	padding-right: 0px;
 }
 .linkButton {
 	font-size: 20px;
