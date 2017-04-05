@@ -4,7 +4,7 @@ body {
 #Introduction {
 	color: #00FA9A;
 	background-color: #000080;
-	height: 300px;	
+	height: 500px;	
 }
 #wrapBox {
 	display: flex;
@@ -15,9 +15,23 @@ body {
 	height: 200px;
 	width: 650px;
 	text-align: center;
+	/*margin: 50px;*/
+}
+.linkBox {
+	margin: 80px 0px 0px 0px;
+}
+.linkButton:hover {
+	background-color: orange;
+	border-color: black;
+	border: 2px solid;
+	box-shadow: 10px;
 }
 .linkButton {
-	font-size: 50px;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: red;
+	text-decoration: none;
 }
 .smallerBoxTwo {
 	background-color:#FF8C00;
@@ -26,10 +40,10 @@ body {
 	width: 650px;
 }
 .smallerBoxTwoImage {
+	border-radius: 10px;
 	height: 180px;
 	width: 300px;
 	margin: 10px 0px 0px 170px;
-
 }
 #helpSources {
 	color: #FF8C00;
