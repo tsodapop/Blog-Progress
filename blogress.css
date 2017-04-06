@@ -6,6 +6,32 @@ body {
 	background-color: #000080;
 	height: 500px;	
 }
+#tabSection {
+	height: 70px;
+	text-align: center;
+}
+.tabOne {
+	display: inline-block;
+	background-color: red;
+	height: 50px;
+	width: 34%;
+	padding: 10px 0px 10px 0px;
+
+}
+.tabTwo{
+	display: inline-block;
+	background-color: grey;
+	height: 50px;
+	width: 33%;
+	padding: 10px 0px 10px 0px;
+}
+.tabThree{
+	display: inline-block;
+	background-color: green;
+	height: 50px;
+	width: 33%;
+	padding: 10px 0px 10px 0px;
+}
 #wrapBox {
 	display: flex;
 }
@@ -56,8 +82,4 @@ body {
 	height: 180px;
 	width: 300px;
 	margin: 10px 0px 0px 170px;
-}
-#helpSources {
-	color: #FF8C00;
-	background-color: #000000;
 }
