@@ -7,30 +7,63 @@ body {
 	height: 500px;	
 }
 #tabSection {
-	height: 70px;
+	height: 100px;
 	text-align: center;
+}
+#tabOne {
+	width: 300px;
+	height: 100px;
+	background-color: green;
 }
 .tabOne {
 	display: inline-block;
+	text-decoration: none;
 	background-color: red;
 	height: 50px;
-	width: 34%;
+	width: 100px;
 	padding: 10px 0px 10px 0px;
-
+	position: absolute;
+}
+.tabOneCut {
+	content: '';
+	background-color: orange;
+	width: 0px;
+	height: 0px;
+	position: relative;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-bottom: 35px solid red;
+    border-right: 35px solid red;
+    right: 70px;
+}
+.tabOne:after {
+	content: '';
+	background-color: orange;
+	width: 0px;
+	height: 0px;
+	position: relative;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-top: 35px solid red;
+    border-left: 35px solid red;
+    left: 85px;
+    bottom: 46px;
 }
 .tabTwo{
-	display: inline-block;
+/*	display: inline-block;
 	background-color: grey;
 	height: 50px;
 	width: 33%;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;*/
+	display: none;
 }
 .tabThree{
-	display: inline-block;
+/*	display: inline-block;
 	background-color: green;
 	height: 50px;
 	width: 33%;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;*/
+	display: none;
 }
 #wrapBox {
 	display: flex;
