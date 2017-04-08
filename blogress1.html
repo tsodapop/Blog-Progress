@@ -9,17 +9,25 @@
 
 	<body>
 		<div id='Introduction'>
-		I got one of the buttons to look the way I want it to, with cuts (the red part). I'm going to replicate this for two other tabs and keep it at three tabs for the time being. <br><br> I want to keep looking into this one tab for a little bit longer, bceause I want to figure out how to make the diagonal cuts to be part of the link and not just aesthetic. Currently the left side doesn't match the right side in link activity. Once I get this figured out, I can move on past the tabs.
+		SUCCEESS!! I have found that the best way to add on to a link div through css is by the :before and :after pseudos. My next big question is going to be about how I can specify which parts of a border I would like to be part of the link, or if I can selectively choose half of a border set to be z-index:1 since right now the entire border box that comprises my triangles are links.<br><br> I also did not get to this yesterday so I spent an hour on this to count for 2 days' time.<br><br> the links aren't completely ugly!
 		</div>
 
 		<div id='tabSection'> 
 			<div id='tabOne'>
-			<a class='tabOne' href='#'>Functional Link</a><!--
-		 --><div class='tabOneCut'></div>
-		 </div><!--
-		 --><a class='tabTwo' href="#">Not Really</a><!--
-		 --><a class='tabThree' href="#">Maybe Someday</a>
+				<a class='tabOne' href='#'><span>Link One</span></a>
+		 	</div><!--
+		 --><div class = 'filler'></div><!--
+		 --><div id='tabTwo'>
+		 		<a class='tabTwo' href="#">Link Two</a>
+		    </div><!--
+		 --><div class = 'filler'></div><!--
+		 --><div id='tabThree'>
+		 	<a class='tabThree' href="#">Link Three</a>
+		 	</div>
 		</div>
+
+
+
 
 		<div id='wrapBox'>
 			<div class='smallerBox'>	

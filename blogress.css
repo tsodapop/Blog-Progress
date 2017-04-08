@@ -7,13 +7,46 @@ body {
 	height: 500px;	
 }
 #tabSection {
-	height: 100px;
+	height: 70px;
 	text-align: center;
+	display: flex;
+	background-color: black;
 }
+.filler {
+	width: 100px;
+	background-color: black;
+}
+.filler:before {
+	content: '';
+	background-color: black;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-bottom: 35px solid black;
+    border-right: 35px solid black;
+    margin: 0px 0px 0px -80px;
+    bottom: 106px;
+}
+/*.filler:after {
+	content: '';
+	background-color: orange;
+	width: 0px;
+	height: 0px;
+	position: relative;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-top: 35px solid black;
+    border-left: 35px solid grey;
+    left: 85px;
+    bottom: 28px;
+    /*z-index: 1;
+}*/
 #tabOne {
 	width: 300px;
-	height: 100px;
-	background-color: green;
+	height: 70px;
+	margin: 0px 0px 0px 50px;	
 }
 .tabOne {
 	display: inline-block;
@@ -22,23 +55,24 @@ body {
 	height: 50px;
 	width: 100px;
 	padding: 10px 0px 10px 0px;
-	position: absolute;
+	/*position: absolute;*/
 }
-.tabOneCut {
+.tabOne:before {
 	content: '';
-	background-color: orange;
+	background-color: black;
 	width: 0px;
 	height: 0px;
-	position: relative;
+	position: absolute;
     display: inline-block;
     border: 35px solid transparent;
     border-bottom: 35px solid red;
     border-right: 35px solid red;
-    right: 70px;
+    left: 80px;
+    bottom: 106px;
 }
 .tabOne:after {
 	content: '';
-	background-color: orange;
+	background-color: black;
 	width: 0px;
 	height: 0px;
 	position: relative;
@@ -47,24 +81,88 @@ body {
     border-top: 35px solid red;
     border-left: 35px solid red;
     left: 85px;
-    bottom: 46px;
+    bottom: 28px;
+}
+#tabTwo {
+	display: inline-block;
+	height: 70px;
+	width: 300px;
 }
 .tabTwo{
-/*	display: inline-block;
+	display: inline-block;
+	text-decoration: none;
 	background-color: grey;
 	height: 50px;
-	width: 33%;
-	padding: 10px 0px 10px 0px;*/
-	display: none;
+	width: 100px;
+	padding: 10px 0px 10px 0px;
+}
+.tabTwo:before {
+	content: '';
+	background-color: black;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-bottom: 35px solid grey;
+    border-right: 35px solid grey;
+    margin: 0px 0px 0px -88px;
+    bottom: 106px;
+}
+.tabTwo:after {
+	content: '';
+	background-color: black;
+	width: 0px;
+	height: 0px;
+	position: relative;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-top: 35px solid grey;
+    border-left: 35px solid grey;
+    left: 85px;
+    bottom: 28px;
+}
+#tabThree{
+	display: inline-block;
+	height: 70px;
+	width: 300px;
 }
 .tabThree{
-/*	display: inline-block;
-	background-color: green;
+	display: inline-block;
+	text-decoration: none;
+	background-color: grey;
 	height: 50px;
-	width: 33%;
-	padding: 10px 0px 10px 0px;*/
-	display: none;
+	width: 100px;
+	padding: 10px 0px 10px 0px;
 }
+.tabThree:before {
+	content: '';
+	background-color: black;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-bottom: 35px solid grey;
+    border-right: 35px solid grey;
+    margin: 0px 0px 0px -84px;
+    bottom: 106px;
+}
+.tabThree:after {
+	content: '';
+	background-color: black;
+	width: 0px;
+	height: 0px;
+	position: relative;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-top: 35px solid grey;
+    border-left: 35px solid grey;
+    left: 85px;
+    bottom: 28px;
+}
+
+/*----------------------------------------------------*/
 #wrapBox {
 	display: flex;
 }
