@@ -10,22 +10,22 @@ body {
 	height: 70px;
 	text-align: center;
 	display: flex;
-	background-color: black;
+	background-color: #34495E;
 }
 .filler {
 	width: 100px;
-	background-color: black;
+	background-color: #34495E;
 }
 .filler:before {
 	content: '';
-	background-color: black;
+	background-color: #34495E;
 	width: 0px;
 	height: 0px;
 	position: absolute;
     display: inline-block;
     border: 35px solid transparent;
-    border-bottom: 35px solid black;
-    border-right: 35px solid black;
+    border-bottom: 35px solid #34495E;
+    border-right: 35px solid #34495E;
     margin: 0px 0px 0px -80px;
     bottom: 106px;
 }
@@ -41,7 +41,7 @@ body {
     border-left: 35px solid grey;
     left: 85px;
     bottom: 28px;
-    /*z-index: 1;
+    z-index: 1;
 }*/
 #tabOne {
 	width: 300px;
@@ -51,11 +51,14 @@ body {
 .tabOne {
 	display: inline-block;
 	text-decoration: none;
-	background-color: red;
+	background-color: #33FFB8;
 	height: 50px;
 	width: 100px;
 	padding: 10px 0px 10px 0px;
-	/*position: absolute;*/
+}
+.tabOne:hover {
+	background-color: #FFC133;
+	transition: 1s;
 }
 .tabOne:before {
 	content: '';
@@ -65,101 +68,136 @@ body {
 	position: absolute;
     display: inline-block;
     border: 35px solid transparent;
-    border-bottom: 35px solid red;
-    border-right: 35px solid red;
+    border-bottom: 35px solid #33FFB8;
+    border-right: 35px solid #33FFB8;
+    border-left: 35px solid #34495E;
+    border-top: 35px solid #34495E;
     left: 80px;
     bottom: 106px;
 }
+.tabOne:hover::before {
+	transition: 1s;
+    border-bottom: 35px solid #FFC133;
+    border-right: 35px solid #FFC133;
+}
 .tabOne:after {
 	content: '';
-	background-color: black;
 	width: 0px;
 	height: 0px;
 	position: relative;
     display: inline-block;
     border: 35px solid transparent;
-    border-top: 35px solid red;
-    border-left: 35px solid red;
+    border-top: 35px solid #33FFB8;
+    border-left: 35px solid #33FFB8;
     left: 85px;
     bottom: 28px;
+}
+.tabOne:hover::after {
+	transition: 1s;
+    border-left: 35px solid #FFC133;
+    border-top: 35px solid #FFC133;
 }
 #tabTwo {
 	display: inline-block;
 	height: 70px;
 	width: 300px;
 }
+.tabTwo:hover {
+	background-color: #FFC133;
+	transition: 1s;
+}
 .tabTwo{
 	display: inline-block;
 	text-decoration: none;
-	background-color: grey;
+	background-color: #33FFB8;
 	height: 50px;
 	width: 100px;
 	padding: 10px 0px 10px 0px;
 }
 .tabTwo:before {
 	content: '';
-	background-color: black;
 	width: 0px;
 	height: 0px;
 	position: absolute;
     display: inline-block;
     border: 35px solid transparent;
-    border-bottom: 35px solid grey;
-    border-right: 35px solid grey;
+    border-bottom: 35px solid #33FFB8;
+    border-right: 35px solid #33FFB8;
     margin: 0px 0px 0px -88px;
     bottom: 106px;
 }
+.tabTwo:hover::before {
+	transition: 1s;
+    border-bottom: 35px solid #FFC133;
+    border-right: 35px solid #FFC133;
+}
 .tabTwo:after {
 	content: '';
-	background-color: black;
 	width: 0px;
 	height: 0px;
 	position: relative;
     display: inline-block;
     border: 35px solid transparent;
-    border-top: 35px solid grey;
-    border-left: 35px solid grey;
+    border-top: 35px solid #33FFB8;
+    border-left: 35px solid #33FFB8;
     left: 85px;
     bottom: 28px;
+}
+.tabTwo:hover::after {
+	transition: 1s;
+    border-left: 35px solid #FFC133;
+    border-top: 35px solid #FFC133;
 }
 #tabThree{
 	display: inline-block;
 	height: 70px;
 	width: 300px;
 }
+.tabThree:hover {
+	background-color: #FFC133;
+	transition: 1s;
+}
 .tabThree{
 	display: inline-block;
 	text-decoration: none;
-	background-color: grey;
+	background-color: #33FFB8;
 	height: 50px;
 	width: 100px;
 	padding: 10px 0px 10px 0px;
 }
 .tabThree:before {
 	content: '';
-	background-color: black;
 	width: 0px;
 	height: 0px;
 	position: absolute;
     display: inline-block;
     border: 35px solid transparent;
-    border-bottom: 35px solid grey;
-    border-right: 35px solid grey;
+    border-bottom: 35px solid #33FFB8;
+    border-right: 35px solid #33FFB8;
     margin: 0px 0px 0px -84px;
     bottom: 106px;
 }
+.tabThree:hover::before {
+	transition: 1s;
+    border-bottom: 35px solid #FFC133;
+    border-right: 35px solid #FFC133;
+}
 .tabThree:after {
 	content: '';
-	background-color: black;
 	width: 0px;
 	height: 0px;
 	position: relative;
     display: inline-block;
     border: 35px solid transparent;
-    border-top: 35px solid grey;
-    border-left: 35px solid grey;
+    border-top: 35px solid #33FFB8;
+    border-left: 35px solid #33FFB8;
     left: 85px;
     bottom: 28px;
+}
+.tabThree:hover::after {
+	transition: 1s;
+    border-left: 35px solid #FFC133;
+    border-top: 35px solid #FFC133;
 }
 
 /*----------------------------------------------------*/
