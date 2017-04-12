@@ -1,10 +1,14 @@
-$(document).ready(function() {
-	alert("test");
+// function tabChange() {
+// 	$('p').click(function() {
+// 	alert("test");
+// 	});
+// };
+
+$(document).ready(function(){
+    $('#tabTwo').click(function(){
+        alert("The paragraph was clicked.");
+    });
 });
 
-function tabChange() {
-	$("#tabPage").click(function {
-		alert("test");
-	});
-}
+// tabChange();
 
