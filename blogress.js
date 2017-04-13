@@ -1,8 +1,8 @@
-// function tabChange() {
-// 	$('p').click(function() {
-// 	alert("test");
-// 	});
-// };
+function tabChange() {
+    $('#tabTwo').click(function(){
+        alert("The paragraph was clicked.");
+    });
+};
 
 $(document).ready(function(){
     $('#tabTwo').click(function(){
@@ -10,5 +10,13 @@ $(document).ready(function(){
     });
 });
 
-// tabChange();
+tabChange();
+
+ // functionTwo();
+	// function functionTwo() {
+	// $(document).click(function() {
+ //  alert( "Handler for .click() called." );
+	// 	});
+	// };
+
 
