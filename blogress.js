@@ -1,22 +1,11 @@
-function tabChange() {
-    $('#tabTwo').click(function(){
-        alert("The paragraph was clicked.");
-    });
-};
-
 $(document).ready(function(){
     $('#tabTwo').click(function(){
-        alert("The paragraph was clicked.");
+        $('body').animate({
+            scrollTop: $("#tabPage").offset().top
+            });
+        $('.two').show();
     });
 });
 
-tabChange();
-
- // functionTwo();
-	// function functionTwo() {
-	// $(document).click(function() {
- //  alert( "Handler for .click() called." );
-	// 	});
-	// };
 
 
