@@ -7,5 +7,11 @@ $(document).ready(function(){
     });
 });
 
-
+$(document).ready(function(){
+	$('#homeButton').click(function() {
+		$('body').animate({
+			scrollTop: $("#Introduction").offset().top
+		};
+	});
+});
 

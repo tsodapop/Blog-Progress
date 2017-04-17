@@ -214,6 +214,19 @@ body {
 .three {
 	display: none;
 }
+#homeButton {
+	background-color: grey;
+	z-index: 1;
+	height: 100px;
+	position: fixed;
+}
+.homeButton {
+	padding: 10px;
+	border: 1px solid blue;
+	position: fixed;
+	bottom: 0;
+	right: 10px;
+}
 /*----------------------------------------------------*/
 #wrapBox {
 	display: flex;
