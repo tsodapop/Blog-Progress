@@ -207,12 +207,24 @@ body {
 
 .one {
 	/*display: none;*/
+	height: 300px;
+	width: 500px;
+	background-color: orange;
+	margin: 16px 0px 0px 300px;
 }
 .two {
 	display: none;
+	height: 300px;
+	width: 500px;
+	background-color: orange;
+	margin: 16px 0px 0px 300px;
 }
 .three {
 	display: none;
+	height: 300px;
+	width: 500px;
+	background-color: orange;
+	margin: 16px 0px 0px 300px;
 }
 #homeButton {
 	background-color: grey;
@@ -231,17 +243,7 @@ body {
 #wrapBox {
 	display: flex;
 }
-.smallerBox {
-	background-color: #F0F000;
-	display: inline-block;
-	height: 200px;
-	width: 650px;
-	text-align: center;
-	/*margin: 50px;*/
-}
-.linkBox {
-	margin: 80px 0px 0px 0px;
-}
+
 .linkButton:hover {
 	background-color: orange;
 	border-color: black;
@@ -250,32 +252,10 @@ body {
 	transition: 1s;
 	padding-right: 100px;
 }
-.hidden {
-	display: none;
-}
-.linkButton:hover .hidden {
-	display: inline;
-	opacity: .8;
-	/*padding-right: 50px;*/
-	transition: 1s;
-	padding-right: 0px;
-}
 .linkButton {
 	font-size: 20px;
-	padding: 20px;
+	padding: 10px 20px 10px 20px;
 	border-radius: 10px;
 	background-color: red;
 	text-decoration: none;
-}
-.smallerBoxTwo {
-	background-color:#FF8C00;
-	float:right;
-	height: 200px;
-	width: 650px;
-}
-.smallerBoxTwoImage {
-	border-radius: 10px;
-	height: 180px;
-	width: 300px;
-	margin: 10px 0px 0px 170px;
 }

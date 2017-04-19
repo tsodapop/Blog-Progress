@@ -14,12 +14,12 @@
 
 	<body>
 		<div id='Introduction'>
-		OKAY this took me way longer than it should have. I was making the bottom right homebutton work so that it would pull it up but I kept thinking there was an interaciton issue between that button and the link two button. I tried several instances to see why the button itself was not working. <br><br> What I had to do in the end to fix this was to hide everything else and test tabTwo in the new made function. when that didn't work, I realized the main difference between the top and bottom functions was that I was missing a parantheses ) symbol. This fixed everything. Now, both buttons work. WHEW. okay.
+		I was successful in making the buttons hide and show the correct information based on each click. I also began working on what I could show in a display box below for when the buttons are actually clicked. My new issue is seeing why I cannot use margin to move the box linkButton around vertically. <br><br> I am thinking of changing the buttons section to be elsewhere. I would still like to see how it would be possible to get the triangular cuts to only be relevant when they are colored in.
 		</div>
 
 		<div id='tabSection'> 
 			<div id='tabOne'>
-				<a class='tabOne' href='#wrapBox'><span>Link One</span></a>
+				<a class='tabOne' href='#wrapBox'><span>Home Page</span></a>
 		 	</div><!--
 		 --><div class = 'filler'></div><!--
 		 --><div id='tabTwo'>
@@ -31,16 +31,19 @@
 		 	</div>
 		</div>
 	 	<div id='tabPage'>
-			<p class='one'>one</p>
-			<p class='two'>two</p>
-			<p class='three'>three</p>
+			<div class='one'>
+				<p>This would be the home page</p>
+				<a class='linkButton' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'></a>
+			</div>
+			<div class='two'>This will show when you click on Link Two</div>
+			<div class='three'>This will show when you click on Link Three</div>
 		</div>
 		<div id='homeButton'>
 			<a class='homeButton' href='#'>Click me to go to the top</a>
 		</div>
 
 
-		<div id='wrapBox'>
+<!-- 		<div id='wrapBox'>
 			<div class='smallerBox'>	
 				<div class='linkBox'>
 				<a class='linkButton' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
@@ -50,10 +53,10 @@
 				<span class='hidden'>I was hidden</span>
 				</a>
 				</div>
-			</div><!--
-		 --><div class='smallerBoxTwo'>
+			</div>
+		 	<div class='smallerBoxTwo'>
 		 			<img class='smallerBoxTwoImage' src='http://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/g/giraffe_thumb.JPG'>
 			</div> 
-		</div>
+		</div> -->
 	</body>
 </html>
