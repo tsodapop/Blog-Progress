@@ -14,7 +14,7 @@
 
 	<body>
 		<div id='Introduction'>
-		I was successful in making the buttons hide and show the correct information based on each click. I also began working on what I could show in a display box below for when the buttons are actually clicked. My new issue is seeing why I cannot use margin to move the box linkButton around vertically. <br><br> I am thinking of changing the buttons section to be elsewhere. I would still like to see how it would be possible to get the triangular cuts to only be relevant when they are colored in.
+		It took me a while, but I figured out why I couldn't move the button vertically. I tested by making a div and putting the button inside there. I was then able to see that the button falls into a line (blue line). This, I can move. So that's how I'll be moving buttons moving forward - inserting them into divs. <br><br> I'm going to spend the next few days on making buttons animate into showing other screens inside the tabSection. It'll be a lot of playing around for a while, but I'm hoping to get some fruitful learning out of it.
 		</div>
 
 		<div id='tabSection'> 
@@ -33,7 +33,9 @@
 	 	<div id='tabPage'>
 			<div class='one'>
 				<p>This would be the home page</p>
-				<a class='linkButton' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'></a>
+				<div class='test'>
+					<a class='linkButton' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'></a>
+				</div>
 			</div>
 			<div class='two'>This will show when you click on Link Two</div>
 			<div class='three'>This will show when you click on Link Three</div>
