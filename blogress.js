@@ -41,3 +41,12 @@ $(document).ready(function() {
 	            },1000);
 		});
 });
+
+$(document).ready(function(){
+    $('.linkButton').click(function(){
+        $('body').animate({
+            scrollTop: $("#tabPage").offset().top
+            },1000);
+        $('.unhideTabOneButtons').show();
+    });
+});

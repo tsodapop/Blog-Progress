@@ -259,7 +259,16 @@ body {
 	background-color: red;
 	text-decoration: none;
 }
-.test {
+.tabOneButton {
 	background-color: blue;
 	margin: 50px 0px 0px 0px;
+}
+.unhideTabOneButtons {
+	margin: 100px 0px 0px 0px;
+	background-color: blue;
+}
+.unhideButtons {
+	padding: 30px;
+	text-decoration: none;
+	background-color: green;
 }
