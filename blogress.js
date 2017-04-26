@@ -50,3 +50,11 @@ $(document).ready(function(){
         $('.unhideTabOneButtons').show();
     });
 });
+
+$(document).ready(function(){
+    $('.unhideButtons').click(function(){
+ 	$('.hiddenData').fadeIn(2000);
+ 	$('.hiddenDataTwo').toggle();
+    });
+});
+
