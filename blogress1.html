@@ -11,7 +11,7 @@
 
 	<body>
 		<div id='Introduction'>
-		So I think a really big problem with how I've been studying is that I get really excited about certain ideas and topics - and as I work on it, I find another interesting topic and want to work on that. <br><br> I think it's really awesome that everything is so cool and interesting, but it's hard to keep my head in focus. <br><br> To sort of push myself to be more tactful with learning, I'm going to work on making goals and setting those goals to have an overarching end goal. <br><br> That being said, I do want to finish up these 30 days first before moving on. I think it's better to use the remaining days as a knowledge base for future work.<br><br> Today was about working with buttons and seeing what else they can do. For now, I've got toggle() and fadeIn/FadeOut which I think are really cool. I want to see how to click somethign to create a dropdown of sorts, and if I click out of the dropdown, it will close off instead of having to click something before closing. That's the goal for tomorrow. I also want to work on if/then statements.
+		I came across this grand thought - websites that have links that are shown only after you click on another link are just hidden links. So what does that mean? It's possible to make a propogating series of links. I'll be trying that for the heck of it.<br><br> So after finally making it work, I cannot seem to click on the second link that gets added in. I also am not sure why it doubles up, but I am feeling that it is because it is looking at the entire class. I will be checking out this and maybe fleshing it out because it seems really cool.
 		</div>
 
 		<div id='tabSection'> 
@@ -42,7 +42,11 @@
 				<div class='hiddenDataTwo'>This text was hidden but now it is visible.
 				</div>
 			</div>
-			<div class='two'>This will show when you click on Link Two</div>
+			<div class='two'>
+				<div class='propogateBox'>
+					<a class='propogateButton' href='#tabPage'>Propogate</a>
+				</div>
+			</div>
 			<div class='three'>This will show when you click on Link Three</div>
 		</div>
 		<div id='homeButton'>

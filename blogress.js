@@ -58,3 +58,9 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $('.propogateButton').click(function(){
+    	$('.propogateButton').clone().appendTo('.propogateBox');
+    });
+});
+
