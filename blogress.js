@@ -59,8 +59,15 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('.propogateButton').click(function(){
-    	$('.propogateButton').clone().appendTo('.propogateBox');
-    });
+	    $('.propogateButton').click(function(){
+	    	$('.propogateButton').clone(true).appendTo('.propogateBox');
+	    	$('.propogateBox').append('This is appended');
+		});
 });
+
+for(x = 0; x < 1; x++) {
+	alert('this is an alert');
+};
+
+
 
