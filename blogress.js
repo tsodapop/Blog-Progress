@@ -58,16 +58,35 @@ $(document).ready(function(){
     });
 });
 
+console.log(document.length);
+
 $(document).ready(function(){
 	    $('.propogateButton').click(function(){
-	    	$('.propogateButton').clone(true).appendTo('.propogateBox');
-	    	$('.propogateBox').append('This is appended');
+	    	if ($('.unhideButtons').length < 20) {
+		    	$('.propogateButton').clone(true).appendTo('.propogateBox');
+		    	// $('.propogateBox').append('This is appended');
+		    	console.log(('.propogateButton').length);
+		    }
+		    else {	console.log(('.propogateButton').length);
+		}
 		});
 });
 
-for(x = 0; x < 1; x++) {
-	alert('this is an alert');
-};
+// for(x = 0; x < 1; x++) {
+// 	alert('this is an alert');
+// };
+
+
+// $(document).ready(function(){ 
+	// 	var n = $('.propogateButton').length;
+	// 	if (n < 2) {
+	// 		alert('test');
+	// 		console.log(n);
+	// 	} 
+	// 	else {
+	// 		alert('toy');
+	// 	}
+// });
 
 
 
