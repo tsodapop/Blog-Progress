@@ -58,19 +58,18 @@ $(document).ready(function(){
     });
 });
 
-console.log(document.length);
-
 $(document).ready(function(){
 	    $('.propogateButton').click(function(){
-	    	if ($('.unhideButtons').length < 20) {
+	    	if ($('.propogateButton').length < 4) {
 		    	$('.propogateButton').clone(true).appendTo('.propogateBox');
 		    	// $('.propogateBox').append('This is appended');
-		    	console.log(('.propogateButton').length);
+		    	console.log($('.propogateButton').length);
 		    }
-		    else {	console.log(('.propogateButton').length);
+		    else {	console.log($('.propogateButton').length);
 		}
 		});
 });
+
 
 // for(x = 0; x < 1; x++) {
 // 	alert('this is an alert');
