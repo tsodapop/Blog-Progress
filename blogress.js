@@ -60,13 +60,17 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	    $('.propogateButton').click(function(){
-	    	if ($('.propogateButton').length < 4) {
+	    	if ($('.propogateButton').length < 4) 
+	    	{
 		    	$('.propogateButton').clone(true).appendTo('.propogateBox');
-		    	// $('.propogateBox').append('This is appended');
+		    	// $('.propogateButton').append('This is appended');
 		    	console.log($('.propogateButton').length);
 		    }
-		    else {	console.log($('.propogateButton').length);
-		}
+		    else if ($('.propogateButton').length = 4)
+		    {
+		    	$(this).closest('.propogateButton').remove();
+		    	console.log($('.propogateButton').length);
+			}
 		});
 });
 
