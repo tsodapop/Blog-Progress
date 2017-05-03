@@ -63,7 +63,6 @@ $(document).ready(function(){
 	    	if ($('.propogateButton').length < 4) 
 	    	{
 		    	$('.propogateButton').clone(true).appendTo('.propogateBox');
-		    	// $('.propogateButton').append('This is appended');
 		    	console.log($('.propogateButton').length);
 		    }
 		    else if ($('.propogateButton').length = 4)
@@ -75,21 +74,25 @@ $(document).ready(function(){
 });
 
 
-// for(x = 0; x < 1; x++) {
-// 	alert('this is an alert');
+// for(x = 0; x < 3;) {
+// 	console.log(x);
+// 	// alert(x);
+// 	x++;
 // };
 
 
-// $(document).ready(function(){ 
-	// 	var n = $('.propogateButton').length;
-	// 	if (n < 2) {
-	// 		alert('test');
-	// 		console.log(n);
-	// 	} 
-	// 	else {
-	// 		alert('toy');
-	// 	}
-// });
+var a = 5;
+var b = 10;
+
+function matchBtoA() {
+	a++;
+}
+
+while (a != b) {
+	console.log(a);
+	matchBtoA();
+}	
+
 
 
 
